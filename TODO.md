@@ -1,0 +1,8 @@
+- [x] Update android/app/build.gradle.kts to set ndkVersion = "27.0.12077973"
+- [x] Run flutter build apk to verify the NDK version fix
+- [ ] Add routing imports (http, convert) to lib/screens/map_screen.dart
+- [ ] Add _routePoints state variable in _MapScreenState
+- [ ] Add _fetchRoute function using OpenRouteService API
+- [ ] Modify _calculateNearestStopAndEta to call _fetchRoute after finding nearest stop
+- [ ] Update PolylineLayer to use _routePoints instead of straight line
+- [ ] Test routing functionality and handle API key configuration
